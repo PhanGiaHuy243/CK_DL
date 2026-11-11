@@ -1,0 +1,28 @@
+{
+  "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\phangiahuy\\DL\\DL_ck\\.venv-gpu\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "ultralytics": "8.3.221",
+    "opencv-python": "4.11.0.86",
+    "numpy": "1.26.4",
+    "Pillow": "12.2.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.10.9",
+    "pandas": "2.1.3",
+    "albumentations": null
+  },
+  "cuda": true,
+  "torch_cuda": "12.6",
+  "gpus": [
+    "NVIDIA GeForce RTX 3070 Laptop GPU"
+  ],
+  "cpu_threads": 10,
+  "cuda_runtime_check": {
+    "passed": true,
+    "device": "cuda:0",
+    "cudnn_version": 90701
+  }
+}

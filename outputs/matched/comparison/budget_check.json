@@ -1,0 +1,8 @@
+{
+  "optimizer_steps_relative_difference": 0.0,
+  "steps_within_one_percent": true,
+  "image_presentations_equal": true,
+  "actual_lr_sequences_equal": true,
+  "baseline": 5940,
+  "augmented": 5940
+}

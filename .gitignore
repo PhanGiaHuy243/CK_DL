@@ -1,0 +1,29 @@
+.venv/
+.venv-gpu/
+__pycache__/
+*.pyc
+*.pt
+CHENAB/
+CHENAB.zip
+.env
+.env.*
+!.env.example
+*.cache
+*.log
+
+# Keep source data, generated training images, environments, and temporary runs local.
+# Publish the completed experiment artifacts and the two best checkpoints.
+outputs/*
+!outputs/audit/
+!outputs/environment.json
+!outputs/gpu_requirements.lock.txt
+!outputs/matched/
+outputs/matched/*
+!outputs/matched/pipeline_status.json
+!outputs/matched/comparison/
+!outputs/matched/runs/
+outputs/matched/runs/*
+!outputs/matched/runs/yolov8n_baseline/
+!outputs/matched/runs/yolov8n_augmented/
+!outputs/matched/runs/yolov8n_baseline/weights/best.pt
+!outputs/matched/runs/yolov8n_augmented/weights/best.pt

@@ -1,0 +1,22 @@
+{
+  "train": {
+    "augment": false,
+    "transforms": [
+      "LetterBox",
+      "Format"
+    ],
+    "albumentations_present": false,
+    "bgr_probability": 0.0,
+    "images": 1052
+  },
+  "val": {
+    "augment": false,
+    "transforms": [
+      "LetterBox",
+      "Format"
+    ],
+    "albumentations_present": false,
+    "bgr_probability": 0.0,
+    "images": 225
+  }
+}

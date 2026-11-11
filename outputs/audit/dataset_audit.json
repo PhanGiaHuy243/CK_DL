@@ -1,0 +1,438 @@
+{
+  "yaml": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\data.yaml",
+  "names": {
+    "0": "baekra",
+    "1": "color issues",
+    "2": "contamination",
+    "3": "cut",
+    "4": "gray stitch",
+    "5": "selvet",
+    "6": "stain"
+  },
+  "splits": {
+    "train": {
+      "images": 1052,
+      "labels": 1052,
+      "boxes_per_class": [
+        303,
+        147,
+        121,
+        147,
+        288,
+        161,
+        353
+      ],
+      "images_per_class": [
+        184,
+        70,
+        107,
+        122,
+        221,
+        101,
+        249
+      ],
+      "multi_box_images": 260,
+      "rounding_warnings": [
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\04eff4f98a22bfefede3c320__007000_jpg.rf.27834ad0491e9f05116797fd1e1087f3.txt",
+          "line": 1,
+          "excess": 9.765625000004996e-06,
+          "original": [
+            3.0,
+            0.84234375,
+            0.086796875,
+            0.3153125,
+            0.17361328125
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\20230718_115436_jpg.rf.3563b06a107a33312e1fba8e4d3668e0.txt",
+          "line": 1,
+          "excess": 5.000000413701855e-11,
+          "original": [
+            4.0,
+            0.2797777781,
+            0.8219291016,
+            0.5595555563,
+            0.1788953
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\20240204_160314_jpg.rf.18d4dc03ba33001d9be0401a7067bde3.txt",
+          "line": 2,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            1.0,
+            0.905295,
+            0.578467,
+            0.189411,
+            0.176441
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\39d5f263436b1308841340b1__006877_jpg.rf.2a73878e08af421ef1acb0b6baf715be.txt",
+          "line": 2,
+          "excess": 9.765624999998057e-06,
+          "original": [
+            3.0,
+            0.0575,
+            0.1255078125,
+            0.11501953125,
+            0.23583984375
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\5313b1e4dc62e987a497f4e6__IMG20230906170040_jpg.rf.269b786f8266aaf68e12e9a6d79e8e34.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.4008366666666667,
+            0.5016675,
+            0.14612,
+            0.9966675
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\56008e43824c1412f9316a8f__augmented_006863_jpg.rf.5862bfbe7841312f773665fb87a72cf5.txt",
+          "line": 1,
+          "excess": 9.765624999991118e-06,
+          "original": [
+            3.0,
+            0.81291015625,
+            0.208359375,
+            0.3541015625,
+            0.41673828125
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\8e7e3fa2a2f1f53d656fe2c8__augmented_topbasi-31-_jpg.rf.7dff7493081e26dc5150f396a77f7e7b.txt",
+          "line": 1,
+          "excess": 1.6666666666775853e-06,
+          "original": [
+            4.0,
+            0.5005566666666666,
+            0.4174966666666667,
+            0.9988900000000001,
+            0.34159
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\96ec541f7487e86577bd1dee__006823_jpg.rf.00c42e3c3b4c8d2cfbbbc134a0cfe8a3.txt",
+          "line": 3,
+          "excess": 9.765624999998057e-06,
+          "original": [
+            6.0,
+            0.05837890625,
+            0.758359375,
+            0.11677734375,
+            0.47287109375
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\ad2f3c15c00c00898f1d7782__augmented_topbasi-29-_jpg.rf.b4ae2f31bbda3305fdb94124318c0f1a.txt",
+          "line": 2,
+          "excess": 1.6666666666775853e-06,
+          "original": [
+            4.0,
+            0.7605566666666667,
+            0.30655666666666664,
+            0.47889000000000004,
+            0.29369
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\cf646f2a583ef660f2b15306__augmented_topbasi-30-_jpg.rf.06696462b7d0b670c31fa72f03ab8578.txt",
+          "line": 1,
+          "excess": 1.6666666666775853e-06,
+          "original": [
+            4.0,
+            0.5022233333333334,
+            0.42646000000000006,
+            0.9955566666666666,
+            0.13381333333333334
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\f350fe6f1327efb210066afa__augmented_topbasi-32-_jpg.rf.6627c532827bfc4d9c195ed9d6192f0c.txt",
+          "line": 1,
+          "excess": 1.6666666666775853e-06,
+          "original": [
+            4.0,
+            0.5005566666666666,
+            0.4447866666666666,
+            0.9988900000000001,
+            0.15714333333333333
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\Gia_Huy_selvet_pending_002.txt",
+          "line": 1,
+          "excess": 4.999999999866223e-07,
+          "original": [
+            5.0,
+            0.222646,
+            0.477273,
+            0.445293,
+            0.272727
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\Gia_Huy_selvet_pending_004.txt",
+          "line": 3,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            5.0,
+            0.589059,
+            0.75,
+            0.821883,
+            0.5
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\Gia_Huy_selvet_pending_009.txt",
+          "line": 3,
+          "excess": 4.999999999866223e-07,
+          "original": [
+            5.0,
+            0.248724,
+            0.722727,
+            0.497449,
+            0.536364
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\Gia_Huy_selvet_pending_012.txt",
+          "line": 4,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            5.0,
+            0.255102,
+            0.761364,
+            0.510204,
+            0.477273
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\IMG20230412150640_jpg.rf.715960962bfe35f1c9fe7c84acaf4844.txt",
+          "line": 2,
+          "excess": 5.000000000143778e-07,
+          "original": [
+            2.0,
+            0.617264,
+            0.498371,
+            0.028502,
+            0.996743
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\IMG20230430152000_jpg.rf.55004a48d951f4eb8ee8a04b885a45e8.txt",
+          "line": 1,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            2.0,
+            0.504072,
+            0.517915,
+            0.991857,
+            0.05456
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\train\\labels\\OIP21.txt",
+          "line": 1,
+          "excess": 4.999999969612645e-09,
+          "original": [
+            5.0,
+            0.34759358,
+            0.3,
+            0.69518717,
+            0.41818182
+          ]
+        }
+      ]
+    },
+    "val": {
+      "images": 225,
+      "labels": 225,
+      "boxes_per_class": [
+        65,
+        32,
+        26,
+        31,
+        62,
+        34,
+        76
+      ],
+      "images_per_class": [
+        39,
+        15,
+        23,
+        26,
+        47,
+        22,
+        53
+      ],
+      "multi_box_images": 49,
+      "rounding_warnings": [
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\valid\\labels\\0f940a9b2f2c39632f6dee2a__IMG20230906165905_jpg.rf.310d4b50059931c675f2f7c83cb4b8c2.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.5141466666666666,
+            0.5016675,
+            0.24827666666666667,
+            0.9966675
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\valid\\labels\\7e6dc6aa13d05ca55195629c__IMG20230906170437_jpg.rf.536dd5f4017b87240070077dbc31eca8.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.32084666666666667,
+            0.5029175,
+            0.21280333333333332,
+            0.9941675
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\valid\\labels\\Gia_Huy_selvet_pending_005.txt",
+          "line": 1,
+          "excess": 4.999999999588667e-07,
+          "original": [
+            5.0,
+            0.269886,
+            0.386364,
+            0.539773,
+            0.681818
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\valid\\labels\\IMG20230430151957_jpg.rf.b125bd0aaad0a17a577c3097cca47687.txt",
+          "line": 1,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            2.0,
+            0.51873,
+            0.576547,
+            0.962541,
+            0.052932
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\valid\\labels\\IMG_20260714_095313_jpg.rf.0rV82YtGExNJaxQtxpef.txt",
+          "line": 1,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            1.0,
+            0.240506,
+            0.500597,
+            0.461334,
+            0.998807
+          ]
+        }
+      ]
+    },
+    "test": {
+      "images": 225,
+      "labels": 225,
+      "boxes_per_class": [
+        65,
+        31,
+        26,
+        32,
+        62,
+        35,
+        76
+      ],
+      "images_per_class": [
+        39,
+        15,
+        23,
+        26,
+        47,
+        22,
+        53
+      ],
+      "multi_box_images": 55,
+      "rounding_warnings": [
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\36d1637a311354b3083efea9__IMG20230906170022_jpg.rf.11ddf76b43f5bc5ce8b920097a8895bd.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.39639,
+            0.5016675,
+            0.20389,
+            0.9966675
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\4501c5fbfe9d446c9ba6cd27__IMG20230906170044_jpg.rf.31dccdbdb3bf3a1c88bde0c52fca0657.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.4186033333333333,
+            0.5004175000000001,
+            0.24831666666666669,
+            0.9991675
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\b83aaed93081eed1a4defb6a__2021_09_28-22_35_58_392919_jpg.rf.d3fb2f41c6fa07f66f02c82bcd85f0b8.txt",
+          "line": 2,
+          "excess": 5.000000413701855e-11,
+          "original": [
+            4.0,
+            0.7321541787,
+            0.0894573643,
+            0.5356916427,
+            0.1720542636
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\be479ad617b51bec2506baea__IMG20230906170013_jpg.rf.7e9030f43f38c1f30c50d570b7034d00.txt",
+          "line": 1,
+          "excess": 1.2499999999526779e-06,
+          "original": [
+            4.0,
+            0.5029175,
+            0.35747666666666666,
+            0.9941675,
+            0.1394
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\db1b50c94888f7d10831445433_jpg.rf.1d878b862a8f6f9b517cea1a1e1ba1ce.txt",
+          "line": 1,
+          "excess": 5.00000000069889e-07,
+          "original": [
+            2.0,
+            0.645833,
+            0.911459,
+            0.703125,
+            0.177083
+          ]
+        },
+        {
+          "label": "C:\\phangiahuy\\DL\\DL_ck\\CHENAB\\test\\labels\\Gia_Huy_selvet_pending_019.txt",
+          "line": 1,
+          "excess": 4.999999999588667e-07,
+          "original": [
+            5.0,
+            0.210459,
+            0.363636,
+            0.267857,
+            0.727273
+          ]
+        }
+      ]
+    }
+  },
+  "cross_split_exact_duplicates": []
+}

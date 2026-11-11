@@ -1,0 +1,5 @@
+{
+  "confidence": 0.25,
+  "nms_iou": 0.7,
+  "note": "Display confidence only; AP evaluation uses the lower configured evaluation confidence."
+}

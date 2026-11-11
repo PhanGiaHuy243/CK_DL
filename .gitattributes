@@ -1,0 +1,6 @@
+# Preserve the exact published artifact bytes, including checkpoint checksums.
+outputs/** -text
+reports/** -text
+*.pt -text -diff -merge
+*.png -text
+*.jpg -text
